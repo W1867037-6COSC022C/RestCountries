@@ -1,0 +1,21 @@
+:root {
+  --primary: #a0522d; /* Sienna */
+  --secondary: #cd853f; /* Peru */
+  --background: #f5f5dc; /* Beige */
+  --text-color: #333333;
+}
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.navbar {
+  background-color: #fff;
+}
