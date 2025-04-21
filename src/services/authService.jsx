@@ -24,3 +24,15 @@ export async function fetchUserProfile(token) {
   });
   return res.json();
 }
+
+export async function updateUserProfile(token, data) {
+  const res = await fetch(`${API}/auth/profile`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(data),
+  });
+  return res.json();
+}

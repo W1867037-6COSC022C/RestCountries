@@ -36,7 +36,7 @@ export default function UserLogin() {
       onSubmit={handle}
       footer={
         <Typography align="center">
-          <Link to="/register">Don’t have an account? Register</Link>
+          <Link to="/register">Don't have an account? Register</Link>
         </Typography>
       }
     />

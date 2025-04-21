@@ -1,4 +1,4 @@
-const API = "";
+const API = "http://localhost:3001";
 
 export async function fetchAllCountries(apiKey) {
   const res = await fetch(`${API}/countries`, {
